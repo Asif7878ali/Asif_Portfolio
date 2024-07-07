@@ -146,17 +146,8 @@ body {
 .profile-image {
   width: 150px;
   border-radius: 50%;
-  animation: bounce 1s infinite alternate;
 }
 
-@keyframes bounce {
-  from {
-    transform: translateY(0px);
-  }
-
-  to {
-    transform: translateY(-10px);
-  }
 }
 
 .division {
@@ -169,7 +160,6 @@ body {
 #projects {
   display: flex;
   flex-direction: column;
-  margin: 2rem auto 5rem;
 }
 
 #projects .btn {
@@ -333,5 +323,68 @@ body {
   .header-container .btn {
     border-radius: 5px;
     width: 80%;
+  }
+}
+
+/* skils */
+
+
+#skills .big {
+  font-size: 40px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+#skills .heading-section {
+  margin-bottom: 50px;
+}
+
+#skills .progress-wrap {
+  margin-bottom: 30px;
+}
+
+#skills .progress {
+  background: #e0e0e0;
+  border-radius: 25px;
+  overflow: hidden;
+  height: 30px;
+  margin-top: 10px;
+}
+
+#skills .progress-bar {
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: width 0.6s ease;
+}
+
+#skills .progress-bar span {
+  position: relative;
+  top: 5px;
+}
+
+.color-1 { background-color: #ff6347; } /* Tomato */
+.color-2 { background-color: #4682b4; } /* Steel Blue */
+.color-3 { background-color: #32cd32; } /* Lime Green */
+.color-4 { background-color: #ffa500; } /* Orange */
+.color-5 { background-color: #6a5acd; } /* Slate Blue */
+.color-6 { background-color: #ff69b4; } /* Hot Pink */
+
+
+@media (max-width: 768px) {
+  #skills .big {
+    font-size: 40px;
+  }
+
+  #skills .progress {
+    height: 25px;
+  }
+
+  #skills .progress-bar span {
+    top: 3px;
   }
 }
