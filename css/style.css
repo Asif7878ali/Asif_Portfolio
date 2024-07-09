@@ -367,12 +367,28 @@ body {
   top: 5px;
 }
 
-.color-1 { background-color: #ff6347; } /* Tomato */
-.color-2 { background-color: #4682b4; } /* Steel Blue */
-.color-3 { background-color: #32cd32; } /* Lime Green */
-.color-4 { background-color: #ffa500; } /* Orange */
-.color-5 { background-color: #6a5acd; } /* Slate Blue */
-.color-6 { background-color: #ff69b4; } /* Hot Pink */
+.color-1 { background-color: #ff6347; }
+.color-2 { background-color: #4682b4; }
+.color-3 { background-color: #32cd32; }
+.color-4 { background-color: #ffa500; } 
+.color-5 { background-color: #6a5acd; } 
+.color-6 { background-color: #ff69b4; }
+.color-7 { background-color: #7fffd4; }
+.color-8 { background-color: #8a2be2; } 
+.color-9 { background-color: #a52a2a; } 
+.color-10 { background-color: #5f9ea0; } 
+.color-11 { background-color: #d2691e; } 
+.color-12 { background-color: #ff7f50; } 
+.color-13 { background-color: #6495ed; }
+.color-14 { background-color: #dc143c; } 
+.color-15 { background-color: #00ced1; } 
+.color-16 { background-color: #9400d3; } 
+.color-17 { background-color: #ff1493; } 
+.color-18 { background-color: #00bfff; } 
+.color-19 { background-color: #1e90ff; } 
+.color-20 { background-color: #ff8c00; } 
+
+
 
 
 @media (max-width: 768px) {
